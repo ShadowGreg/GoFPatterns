@@ -4,6 +4,6 @@ namespace GoFPatterns.Creational.FactoryMethod
 {
     public class Car : IProductions
     {
-        public void Realise() => Console.WriteLine("Выпущен новый легковой автомобиль");
+        public string Realise() => "Выпущен новый легковой автомобиль";
     }
 }

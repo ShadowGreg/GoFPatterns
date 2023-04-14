@@ -2,6 +2,6 @@
 {
     public interface IProductions
     {
-        void Realise();
+        string Realise();
     }
 }
