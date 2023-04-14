@@ -47,6 +47,11 @@
         <Compile Include="Creational\AbstractFactory\RussianCar.cs" />
         <Compile Include="Creational\AbstractFactory\RussianEngine.cs" />
         <Compile Include="Creational\AbstractFactory\RussianFactory.cs" />
+        <Compile Include="Creational\Builder\AndroidDeveloper.cs" />
+        <Compile Include="Creational\Builder\Director.cs" />
+        <Compile Include="Creational\Builder\IDeveloper.cs" />
+        <Compile Include="Creational\Builder\IphoneDeveloper.cs" />
+        <Compile Include="Creational\Builder\Phone.cs" />
         <Compile Include="Creational\FactoryMethod\Car.cs" />
         <Compile Include="Creational\FactoryMethod\CarWorkShop.cs" />
         <Compile Include="Creational\FactoryMethod\IProductions.cs" />
