@@ -58,6 +58,8 @@
         <Compile Include="Creational\FactoryMethod\IWorkShop.cs" />
         <Compile Include="Creational\FactoryMethod\Truck.cs" />
         <Compile Include="Creational\FactoryMethod\TruckWorkShop.cs" />
+        <Compile Include="Creational\Prototype\IAnimal.cs" />
+        <Compile Include="Creational\Prototype\Sheep.cs" />
         <Compile Include="Creational\Singleton\DataBaseManager.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
