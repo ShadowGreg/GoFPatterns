@@ -20,9 +20,9 @@ namespace GoFTests {
             sheepDonor.SetName("Долли");
 
             IAnimal sheepClone = sheepDonor.Clone();
-            bool temp = sheepDonor.Equals(sheepClone);
+            bool equals = sheepDonor.Equals(sheepClone);
 
-            Assert.True(temp);
+            Assert.True(equals);
         }
     }
 }
