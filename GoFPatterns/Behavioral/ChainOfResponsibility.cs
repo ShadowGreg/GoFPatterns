@@ -20,7 +20,7 @@ namespace GoFPatterns.Behavioral {
         }
     };
 
-    public class Designer: AbsWorker {
+    public partial class Designer: AbsWorker {
         public override string Execute(string command) {
             if (command == "спроектировать дом")
                 return "Проектировщик выполнил команду: " + command;

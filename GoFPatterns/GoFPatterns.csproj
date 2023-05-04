@@ -41,6 +41,7 @@
         <Compile Include="Behavioral\ChainOfResponsibility.cs" />
         <Compile Include="Behavioral\Command.cs" />
         <Compile Include="Behavioral\Iterator.cs" />
+        <Compile Include="Behavioral\Mediator.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusCar.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusEngine.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusFactory.cs" />
