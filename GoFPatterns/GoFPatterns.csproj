@@ -43,6 +43,7 @@
         <Compile Include="Behavioral\Iterator.cs" />
         <Compile Include="Behavioral\Mediator.cs" />
         <Compile Include="Behavioral\Memento.cs" />
+        <Compile Include="Behavioral\Observer.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusCar.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusEngine.cs" />
         <Compile Include="Creational\AbstractFactory\BelorusFactory.cs" />
