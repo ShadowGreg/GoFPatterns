@@ -1,10 +1,10 @@
 ﻿namespace GoFPatterns.Behavioral {
     public abstract class State {
-        protected TrafficLight _trafficLight;
+        protected TrafficLight AbsTrafficLight;
 
         public TrafficLight TrafficLight
         {
-            set => _trafficLight = value;
+            set => AbsTrafficLight = value;
         }
 
         public abstract string NextState();
@@ -31,7 +31,7 @@
 
     public class GreenState : State{
         public override string NextState() {
-            _trafficLight.SetState(new YellowState());
+            AbsTrafficLight.SetState(new YellowState());
             return "Состояние переведено из зелёного в жёлтый ";
         }
 
@@ -42,12 +42,12 @@
     
     public class YellowState : State{
         public override string NextState() {
-            _trafficLight.SetState(new ReadState());
+            AbsTrafficLight.SetState(new ReadState());
             return "Состояние переведено из жёлтого в красный ";
         }
 
         public override string PreviousState() {
-            _trafficLight.SetState(new GreenState());
+            AbsTrafficLight.SetState(new GreenState());
             return "Состяние преведено из жёлтого в зелёный ";
         }
     }
@@ -58,7 +58,7 @@
         }
 
         public override string PreviousState() {
-            _trafficLight.SetState(new YellowState());
+            AbsTrafficLight.SetState(new YellowState());
             return "Состяние преведено в жёлтый ";
         }
     }
